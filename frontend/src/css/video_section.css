@@ -1,0 +1,39 @@
+/* More Section */
+.video-section {
+  padding: 60px 20px;
+  background: #f8f9fa;
+}
+
+/* Heading Styling */
+.video-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f9ae56;
+}
+
+/* Responsive Video */
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 1080px;
+  /* max-width: 800px; */
+  margin: 0 auto;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .video-container video {
+    height: auto;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+}

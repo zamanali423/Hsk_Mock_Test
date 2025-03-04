@@ -1,0 +1,64 @@
+/* Box Styling */
+.test_box {
+  background-color: #2c2f46;
+  height: 70vh;
+  position: relative; /* 🔥 Ensures shape stays inside */
+  padding-top: 20px; /* 🛠 Adjust so shape doesn’t overlap content */
+  overflow: hidden; /* Prevents unwanted scroll */
+}
+.main-box {
+  padding: 7rem 0;
+}
+.rect-box-left {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* text-align: center; */
+  min-height: 150px; /* ⬆ Ensures it has enough height */
+  background: url("../images/test-date.png") no-repeat center center;
+  background-size: cover; /* Ensures it fully covers the box */
+  color: #000;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: #fdf1d9;
+  padding: 0 40px;
+  cursor: pointer;
+}
+.rect-box-right {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* text-align: center; */
+  min-height: 150px; /* ⬆ Ensures it has enough height */
+  background: url("../images/book-test.png") no-repeat center center;
+  background-size: cover; /* Ensures it fully covers the box */
+  color: #000;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: #eaf2f9;
+  padding: 0 40px;
+  cursor: pointer;
+}
+.box-title {
+  font-weight: bold;
+}
+
+/* Hover Effect */
+.rect-box-left:hover,
+.rect-box-right:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Adjustment */
+@media (max-width: 768px) {
+  .rect-box-left,
+  .rect-box-right {
+    margin-bottom: 20px; /* Adds space when stacked */
+  }
+}

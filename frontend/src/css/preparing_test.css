@@ -1,0 +1,44 @@
+/* Center the content */
+.content-box {
+  text-align: center;
+  /* max-width: 600px; */
+  margin: 50px auto;
+  padding: 20px;
+}
+.content-box:hover {
+  background-color: #fafafb;
+}
+
+/* Title Styling */
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+.description {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 0px;
+  /* margin-bottom: 15px; */
+}
+
+/* Anchor Tag Styling */
+.custom-link {
+  display: inline-block;
+  text-decoration: underline;
+  /* background: #007bff; */
+  /* border-radius: 5px; */
+  color: #faaf56;
+  padding: 10px 20px;
+  font-size: 20px;
+  transition: 0.3sease-in-out;
+  font-weight: bold;
+}
+
+.custom-link:hover {
+  color: #df973f;
+}

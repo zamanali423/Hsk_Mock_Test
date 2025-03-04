@@ -1,0 +1,117 @@
+.partner-container {
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding-top: 40px;
+  margin-bottom: 1rem;
+}
+.partner-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #2c2f46;
+}
+.partner-main-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 80px;
+  color: #2c2f46;
+}
+.partner-description {
+  text-align: center;
+  /* width: 88%; */
+  margin: auto;
+  font-size: 17px;
+  padding: 20px 66px;
+}
+
+/* Form Container */
+.form-container {
+  /* max-width: 600px; */
+  margin: 40px auto;
+  padding: 20px 44px;
+  text-align: center;
+}
+
+/* Title */
+.form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form Group */
+.form-group {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+/* Form Row (HSK Teachers & Learners in one row) */
+.form-row {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+.form-row .form-group {
+  width: -webkit-fill-available;
+}
+
+/* Input Fields */
+.form-input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1.5px solid #777878;
+  outline: none;
+  font-size: 14px;
+  background: transparent;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Focused Input */
+.form-input:focus {
+  border-bottom: 2px solid #fbbf79;
+}
+
+/* Floating Labels */
+ .form-group label {
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  font-size: 14px;
+  color: #777878;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+  font-weight: bold;
+}
+
+/* When Input is Focused */
+.focused {
+  bottom: 30px !important;
+  font-size: 14px !important;
+  color: #fbbf79 !important;
+}
+
+/* Submit Button */
+.submit-btn {
+  width: 25%;
+  padding: 15px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fbbf79;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #f8a94f;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .form-row {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,106 @@
+.level-title {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.level-description {
+  text-align: center;
+  font-size: large;
+  color: #747171;
+}
+
+/* Centering the entire hsk container */
+.hsk-container {
+  /* max-width: 600px; */
+  background: #dce7da;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Circle Image */
+.profile-image img {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* border: 4px solid #007bff; */
+}
+
+/* Description */
+.sub-description {
+  font-size: 14px;
+  margin: 0px 0;
+  /* margin: 15px 0; */
+  font-weight: 500;
+}
+
+/* Levels Container */
+.levels-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 20px;
+  /* background-color: #4d8346; */
+  height: 17vh;
+  padding: inherit;
+}
+
+.level {
+  width: 30%;
+}
+.levels {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.level h4 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.level p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #ffffff;
+  /* background-color: #ffffff; */
+  border-radius: 27px;
+  border: 1px solid white;
+  padding: 2px 14px;
+  cursor: pointer;
+}
+.hskk-level h4 {
+  border: 1px solid #ffffff;
+  border-radius: 31px;
+  width: fit-content;
+  padding: 3px 27px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.level p:hover,
+.hskk-level h4:hover {
+  color: #000000 !important;
+  background-color: #ffffff;
+}
+
+/* Arrow Progression */
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.arrow-container span {
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.arrow-icon {
+  font-size: 20px;
+  color: #007bff;
+  margin: 0 5px;
+}

@@ -1,0 +1,47 @@
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  background-color: #f4eeea;
+  padding: 70px 0;
+  position: relative;
+  z-index: 2; /* Ensure content stays above */
+}
+
+.teacher-title {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.teacher-sub-title {
+  font-size: 5.2rem;
+  color: #2c2f46;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.tryBtn {
+  padding: 15px 87px;
+  border-radius: 41px;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.resource {
+  background-color: #fafafb;
+  margin: 20px 0;
+  padding: 20px 0;
+}
+.resource-title {
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  padding: 32px 0;
+}
+.resource-sub-title {
+  text-align: center;
+  font-size: 31px;
+  color: #5b5f79;
+}

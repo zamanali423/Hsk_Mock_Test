@@ -1,0 +1,151 @@
+/* Main Container */
+.profile-container {
+  max-width: 1193px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.profile-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Avatar Section */
+.avatar-container {
+  position: relative;
+  background: url("../images/user_bg.png") no-repeat center;
+  background-size: cover;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.avatar {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+/* Camera Icon */
+.camera-icon {
+  position: absolute;
+  bottom: 2px;
+  left: 87px;
+  background: #faae56;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px 9px;
+  cursor: pointer !important;
+  font-size: 18px;
+  /* display: flex
+; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.camera-icon input {
+  display: none;
+}
+
+/* Avatar Text */
+.avatar-text {
+  margin-top: 10px;
+  font-size: 19px;
+  color: #ffffff;
+}
+
+/* Form */
+.profile-form {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.form-row input,
+.form-row select {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  font-size: 16px;
+  background: transparent;
+  outline: none;
+}
+
+/* Focused Input */
+.form-row input:focus {
+  border-bottom: 2px solid #fbbf79;
+}
+
+/* Floating Labels */
+.form-row label {
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+    font-size: 14px;
+    color: #777878;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+    font-weight: bold;
+  }
+
+  /* When Input is Focused */
+.focused {
+    bottom: 30px !important;
+    font-size: 14px !important;
+    color: #fbbf79 !important;
+  }
+
+/* Checkbox */
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 10px;
+  margin: 37px 0;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #fbbf79;
+  color: white;
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #f6ae5d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+}

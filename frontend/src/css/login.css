@@ -1,0 +1,42 @@
+.check {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.check:hover {
+  text-decoration: underline;
+  color: black;
+}
+#form2Example17:focus,
+#form2Example27:focus {
+  box-shadow: none ;
+  outline: none ;
+}
+.btn-dark{
+    background-color: #faae56;
+    border: 1px solid #faae56;
+    padding: 9px 51px;
+    border-radius: 28px;
+    font-weight: bold;
+}
+.btn-dark:hover{
+    background-color: #ec9f48;
+    border: 1px solid #faae56;
+}
+.login-img{
+    position: relative;
+    left: -101px;
+    top: 0px;
+}
+.login-card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+}
+.login-title{
+    position: relative;
+    top: 32px;
+    left: 32px;
+}
+.login-title h2,h6{
+    font-weight: bold;
+}

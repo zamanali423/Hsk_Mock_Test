@@ -1,0 +1,29 @@
+/* shape  */
+
+/* Wrapper to ensure correct positioning */
+.carousel-wrapper {
+  position: relative; /* Allows absolute elements inside */
+  background-color: #f4eeea;
+  padding-top: 60px; /* Adjust space to avoid content overlap */
+}
+
+.custom-shape-divider-top {
+  position: absolute;
+  top: -1px; /* 🔥 Ensures shape is visible */
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 1; /* 🛠 Adjust if shape is hidden */
+}
+
+.custom-shape-divider-top svg {
+  position: relative;
+  display: block;
+  width: calc(120% + 1.3px);
+  height: 80px; /* 🛠 Adjust height for better visibility */
+}
+
+.custom-shape-divider-top .shape-fill {
+  fill: #ffffff; /* 🛠 Change color if needed */
+}

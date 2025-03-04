@@ -1,0 +1,96 @@
+.footer {
+  background: #2c2f46;
+  color: white;
+  padding: 15px 0;
+}
+
+.footer-links a {
+  color: #aba3a7;
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+  padding: 0 10px; /* Ensures proper spacing */
+}
+
+.footer-links .separator {
+  color: #aba3a7;
+  font-size: 18px;
+  padding: 0 5px; /* Space around the separator */
+}
+
+.footer-links a:hover {
+  color: #ffcc00;
+}
+
+/* General Styling */
+.social-icons a {
+  font-size: 20px;
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Specific Colors for Icons */
+.social-icons a:nth-child(1) svg {
+  border: 2px solid #faaf56;
+  padding: 3px 4px;
+  border-radius: 18px;
+  background: #faaf56;
+  color: #ffffff;
+} /* Gmail - Red */
+.social-icons a:nth-child(2) svg {
+  border: 2px solid #6ddd7a;
+  padding: 3px 4px;
+  border-radius: 18px;
+  background: #6ddd7a;
+  color: #ffffff;
+} /* WeChat - Green */
+.social-icons a:nth-child(3) svg {
+  border: 2px solid #f70162;
+  padding: 3px 4px;
+  border-radius: 18px;
+  background: #f7a700;
+  background: -webkit-linear-gradient(
+    0deg,
+    #f7a700 0%,
+    #f70162 50%,
+    #a409e8 100%
+  );
+  background: linear-gradient(0deg, #f7a700 0%, #f70162 50%, #a409e8 100%);
+  color: #ffffff;
+} /* Instagram - Pink/Red */
+.social-icons a:nth-child(4) svg {
+  border: 2px solid #2e67f6;
+  padding: 3px 4px;
+  border-radius: 18px;
+  background: #2e67f6;
+  color: #ffffff;
+} /* Facebook - Blue */
+
+/* Hover Effect */
+.social-icons a:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer .row {
+    text-align: center;
+  }
+
+  .footer-links {
+    margin-bottom: 10px;
+  }
+
+  .social-icons a {
+    margin: 0 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-links .separator {
+    display: none;
+  }
+}

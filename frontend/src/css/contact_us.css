@@ -1,0 +1,114 @@
+/* Container Styling */
+.upload-container {
+  padding: 50px 20px;
+  /* max-width: 500px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* Title */
+.main-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Message Box */
+.message-box {
+  background-color: #fafafb;
+  padding: 15px;
+  border-radius: 8px;
+  /* text-align: center; */
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid white;
+}
+.message-box:focus-visible {
+  outline: none;
+}
+.message-box:focus-within {
+  border: none;
+}
+
+.message-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.message-text {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Image Upload Box */
+.image-upload-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px dashed #bbb;
+  width: 15%;
+  height: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.image-upload-box:hover {
+  background-color: #f9f9f9;
+}
+
+.plus-icon {
+  font-size: 40px;
+  color: #555;
+}
+
+/* Uploaded Image */
+.uploaded-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Instruction Text */
+.upload-instruction {
+  font-size: 14px;
+  /* color: #666; */
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #faae56;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 21%;
+  font-weight: bold;
+}
+
+.submit-button:hover {
+  background-color: #e29945;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .image-upload-box {
+    width: 40%;
+  }
+}
+@media (max-width: 500px) {
+  .upload-container {
+    padding: 30px 10px;
+  }
+}

@@ -1,0 +1,73 @@
+/* Container ensures proper spacing */
+.rc-container {
+  padding: 20px 0;
+}
+
+/* Responsive Rectangle Card */
+.rectangle-card {
+  background: white;
+  padding: 16px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Main paragraph inside the box */
+.main-text {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+/* Another paragraph aligned to the left */
+.left-text {
+  font-size: 14px;
+  color: #b7a6a6;
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+/* Divider Line */
+.divider {
+  border: 1px solid #ddd;
+  width: 100%;
+  margin: 10px 0;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* Button Styling */
+.rc-btn-code {
+  padding: 0px 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  border: 1px solid #515571;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #515571;
+  color: #fff;
+}
+.rc-btn-buy {
+  padding: 0px 19px;
+  border-radius: 5px;
+  font-size: 13px;
+  border: 1px solid #faae56;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #faae56;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+}

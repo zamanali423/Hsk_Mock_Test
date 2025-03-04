@@ -1,0 +1,76 @@
+/* Main Container */
+.resource-container {
+  /* width: 90%; */
+  /* max-width: 800px; */
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph Styling */
+.resource-text {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Divider Line */
+.divider {
+  border: 1px solid #ddd;
+  width: 100%;
+  margin: 10px 0;
+}
+
+/* Resource Box (PDF & Audio) */
+.resource-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 7px 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+/* File Name Text */
+.file-name {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Download Button */
+.download-btn {
+  background-color: #515571;
+  color: white;
+  padding: 3px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.download-btn:hover {
+  background-color: #4b4f6b;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .resource-text {
+    font-size: 16px;
+  }
+
+  .file-name {
+    font-size: 14px;
+  }
+
+  .download-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}

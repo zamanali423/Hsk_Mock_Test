@@ -1,0 +1,67 @@
+/* Style for the box */
+
+.box_container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 47%;
+}
+
+/* Center content inside the box */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Circle Image */
+.circle-img {
+    width: 162px;
+    height: 160px;
+  /* width: 120px; 
+  height: 120px; */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 0px solid #ddd;
+}
+
+.left{
+    background-color: #dce7da;
+}
+.right{
+    background-color: #f4e2d4;
+}
+
+.para{
+    font-size: larger;
+}
+
+.more{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: large;
+}
+.more:hover{
+    color: #000 !important;
+    text-decoration: underline;
+}
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .box {
+    margin-bottom: 20px;
+  }
+}
+
